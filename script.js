@@ -50,7 +50,7 @@ function dispalyTodos() {
     });
 
     const deleteButton = document.createElement("button");
-    deleteButton.classList.add("delete-button");
+    deleteButton.classList.add("delete-btn");
     deleteButton.textContent = "削除";
     deleteButton.addEventListener("click", () => {
       deleteTodo(todo.id);
